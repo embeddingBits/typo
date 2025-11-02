@@ -35,7 +35,7 @@
         
             {{- if .Param "readTime" }}
               {{ if .Date }}&nbsp; · &nbsp;{{ end }}
-              {{- .ReadingTime }} min read &nbsp;·&nbsp; {{ .WordCount }} words
+              {{- .ReadingTime }} min read
             {{- end }}
             </p>
           </div>

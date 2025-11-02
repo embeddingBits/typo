@@ -2,29 +2,30 @@
 
 <div class="header">
 
-    {{ if or (not (.Param "hideHeader")) .IsHome }}
+      {{ if or (not (.Param "hideHeader")) .IsHome }}
 
-    <h1 class="header-title">
-        <a href="{{ site.BaseURL }}">{{ site.Title }}</a>
-    </h1>
+      <h1 class="header-title">
+            <a href="{{ site.BaseURL }}">{{ site.Title }}</a>
+      </h1>
 
-    <div class="header-menu">
-        {{ $currentPage := . }}
+      <div class="header-menu">
+            {{ $currentPage := . }}
 
-        {{ with site.Params.menu }}
-        {{ range . }}
+            {{ with site.Params.menu }}
+            {{ range . }}
 
-        <p
-            class="small {{ if eq .name (lower $currentPage.Name) }} bold {{end}}">
-            <a href="{{ .url }}" {{ if and (isset . "newTab") .newTab
-                }}target="_blank" rel="noopener noreferrer" {{ end }}>
-                /{{.name }}
-            </a>
-        </p>
-        {{ end }}
-        {{ end }}
-    </div>
+            <p
+                  class="small {{ if eq .name (lower $currentPage.Name) }} bold {{end}}">
+                  <a href="{{ .url }}" {{ if and (isset . "newTab") .newTab
+                        }}target="_blank" rel="noopener noreferrer" {{ end }}>
+                        /{{.name }}
+                  </a>
+            </p>
+            {{ end }}
+            {{ end }}
+      </div>
+      <hr></hr>
 
-    {{ end }}
+      {{ end }}
 
 </div>
