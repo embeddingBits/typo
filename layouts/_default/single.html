@@ -13,7 +13,7 @@
         
         <h1 class="single-title">{{ .Title }}</h1>
         {{- with .Param "summary" }}
-        <p class="single-summary">{{ . | markdownify }}</p>
+        <p class="single-summary" style="text-align: center;">{{ . | markdownify }}</p>
         {{- end }}
    
         {{- /* Date, Reading Time and Author */}}
