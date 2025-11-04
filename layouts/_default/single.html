@@ -35,7 +35,7 @@
         
             {{- if .Param "readTime" }}
               {{ if .Date }}&nbsp; · &nbsp;{{ end }}
-              {{- .ReadingTime }} min read
+              <i class="fa-solid fa-clock"></i>{{- .ReadingTime }} min read
             {{- end }}
             </p>
           </div>
