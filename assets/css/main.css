@@ -274,6 +274,7 @@ footer a {
       font-size: small;
       margin-top: .2rem !important;
       font-style: italic;
+      padding-left: 100px
       color: var(--content-secondary);
 }
 
