@@ -22,11 +22,11 @@
           {{ with $.Param "authorAvatarPath" }}
             <img src="{{ . }}" alt="Author Avatar" />
           {{ end }}
-          <div>
+          <div style="text-align: center;">
             {{ with .Param "author" }}
             <p class="author"> {{- .}} </p>
             {{ end }}
-            <p class="single-date" style="text-align: center;">
+            <p class="single-date">
             {{- with .Date }}
               {{- $dateMachine := . | time.Format "2006-01-02T15:04:05-07:00" }}
               {{- $dateHuman := . | time.Format (default ":date_long" $.Site.Params.singleDateFormat) }}
