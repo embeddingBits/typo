@@ -342,6 +342,7 @@ footer a {
 
 .single-subsummary {
       margin-top: calc(.8 * var(--p-margin-top));
+      text-align: center;
       margin-bottom: var(--p-margin-bottom);
       display: flex;
       align-items: center;
