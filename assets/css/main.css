@@ -342,7 +342,7 @@ footer a {
 
 .single-subsummary {
       margin-top: calc(.8 * var(--p-margin-top));
-      text-align: center;
+      justify-content: center;
       margin-bottom: var(--p-margin-bottom);
       display: flex;
 }
@@ -366,6 +366,7 @@ footer a {
 }
 
 .single-summary {
+      justify-content: center;
       margin-bottom: 0;
       color: var(--content-secondary);
 }
