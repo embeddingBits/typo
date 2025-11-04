@@ -12,7 +12,7 @@
         {{- /* Title and Summary */}}
         
         <h1 class="single-title">{{ .Title }}</h1>
-        {{- with .Param "description" }}
+        {{- with .Param "summary" }}
         <p class="single-summary">{{ . | markdownify }}</p>
         {{- end }}
    
