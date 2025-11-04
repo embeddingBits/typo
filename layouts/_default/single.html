@@ -22,7 +22,7 @@
           {{ with $.Param "authorAvatarPath" }}
             <img src="{{ . }}" alt="Author Avatar" />
           {{ end }}
-          <div style="justify-content: center;">
+          <div>
             {{ with .Param "author" }}
             <p class="author"> {{- .}} </p>
             {{ end }}

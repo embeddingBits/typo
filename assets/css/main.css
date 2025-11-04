@@ -344,7 +344,6 @@ footer a {
       margin-top: calc(.8 * var(--p-margin-top));
       margin-bottom: var(--p-margin-bottom);
       display: flex;
-      justify-content: center;
 }
 
 .single-subsummary img {
