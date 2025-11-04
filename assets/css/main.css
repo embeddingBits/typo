@@ -273,7 +273,7 @@ footer a {
 .line-summary {
       font-size: small;
       margin-top: .2rem !important;
-      /* font-style: italic; */
+      font-style: italic;
       color: var(--content-secondary);
 }
 
