@@ -366,7 +366,7 @@ footer a {
 }
 
 .single-summary {
-      justify-content: center;
+      text-align: center;
       margin-bottom: 0;
       color: var(--content-secondary);
 }
