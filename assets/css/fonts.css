@@ -31,16 +31,16 @@
 }
 
 @font-face {
-      font-family: "Monaspace";
-      src: url("/fonts/Monaspace/MonaspaceArgon-Regular.woff") format("woff");
+      font-family: "JetBrainsMono Regular";
+      src: url("/fonts/JetBrainsMono/JetBrainsMono-Regular.woff") format("woff");
       font-weight: normal;
       font-style: normal;
       font-display: swap;
 }
 
 @font-face {
-      font-family: "Monaspace";
-      src: url("/fonts/Monaspace/MonaspaceArgon-SemiBold.woff") format("woff");
+      font-family: "JetBrainsMono SemiBold";
+      src: url("/fonts/JetBrainsMono/JetBrainsMono-SemiBold.woff") format("woff");
       font-weight: bold;
       font-style: normal;
       font-display: swap;
