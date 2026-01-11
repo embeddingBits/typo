@@ -78,6 +78,17 @@ a {
       text-decoration: underline;
 }
 
+a:hover {
+      text-decoration: underline;
+      background: var(--content-primary);
+      color: var(--background)
+}
+
+::selection {
+      background: var(--content-primary);
+      color: var(--background)
+}
+
 input {
       .dark & {
             color-scheme: dark;
