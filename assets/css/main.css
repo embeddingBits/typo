@@ -382,6 +382,28 @@ footer a {
       margin-bottom: 5rem;
 }
 
+.single-content a {
+      text-decoration: underline;
+      color: var(--blue);
+}
+
+.single-content a:hover {
+      text-decoration: underline;
+      background-color: var(--blue);
+      color: var(--background);
+}
+
+.single-content a:visited {
+      text-decoration: underline;
+      color: var(--purple);
+}
+
+.single-content a:hover:visited {
+      text-decoration: underline;
+      background-color: var(--purple);
+      color: var(--background);
+}
+
 .single-tags {
       margin-top: -1rem;
 }
