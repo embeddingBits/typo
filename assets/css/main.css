@@ -244,9 +244,9 @@ footer a {
 /* Posts list  */
 
 .post-line {
-      margin-bottom: .5rem;
       display: flex;
-      align-items: baseline;
+      gap: 1.2rem;
+      align-items: flex-start;
 }
 
 .tag-line {
@@ -263,8 +263,9 @@ footer a {
 .line-date {
       font-size: small;
       font-family: var(--font-mono);
-      min-width: 120px;
-      max-width: 120px;
+      width: 100px;
+      flex-shrink: 0;
+      white-space: nowrap;
       text-align: right;
       padding-right: 1rem;
       margin-top: 0rem;
