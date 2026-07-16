@@ -14,7 +14,7 @@ https://github.com/gohugoio/hugo/blob/89bd02/tpl/tplimpl/embedded/templates/_def
   {{- else if (or .PageInner.Parent .PageInner.Parent.Resources) -}}
     {{- $imgResource = .PageInner.Parent.Resources.Get $path -}}
   {{- end -}}
-  {{- $imgResource := or $imgResource (resources.Get $path) -}}
+  {{- $imgResource = or $imgResource (resources.Get $path) -}}
   {{- with $imgResource -}}
     {{- $url = .RelPermalink -}}
     {{- with $u.RawQuery -}}

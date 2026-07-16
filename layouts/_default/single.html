@@ -17,15 +17,12 @@
         {{- end }}
    
         {{- /* Date, Reading Time and Author */}}
-        {{ if or (or (.Param "author") (.Param "authorAvatarPath")) (or .Date (.Param "readTime")) }}
+        {{ if or (.Param "authorAvatarPath") (or .Date (.Param "readTime")) }}
         <div class="single-subsummary">
           {{ with $.Param "authorAvatarPath" }}
             <img src="{{ . }}" alt="Author Avatar" />
           {{ end }}
           <div>
-            {{ with .Param "author" }}
-            <p class="author"> {{- .}} </p>
-            {{ end }}
             <p class="single-date">
             {{- with .Date }}
               {{- $dateMachine := . | time.Format "2006-01-02T15:04:05-07:00" }}

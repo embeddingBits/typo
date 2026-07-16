@@ -247,7 +247,7 @@ footer a {
 .post-line {
       display: flex;
       gap: 1.2rem;
-      align-items: flex-start;
+      align-items: baseline;
 }
 
 .tag-line {
