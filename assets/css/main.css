@@ -20,12 +20,14 @@ h1 {
       margin-top: var(--h1-margin-top);
       margin-bottom: var(--h1-margin-bottom);
       font-size: var(--h1-font-size);
+      font-weight: bold;
 }
 
 h2 {
       margin-top: var(--h2-margin-top);
       margin-bottom: var(--h2-margin-bottom);
       font-size: var(--h2-font-size);
+      font-weight: bold;
 }
 
 h3,
@@ -35,6 +37,7 @@ h6 {
       font-size: var(--hx-font-size);
       margin-top: var(--hx-margin-top);
       margin-bottom: var(--hx-margin-bottom);
+      font-weight: bold;
 }
 
 .heading {

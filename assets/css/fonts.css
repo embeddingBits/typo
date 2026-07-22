@@ -1,38 +1,174 @@
 @font-face {
-      font-family: "Literata";
-      src: url("/fonts/Literata/Literata-Light.woff2") format("woff2");
-      font-weight: light;
-      font-style: normal;
-      font-display: swap;
+  font-family: "JosefinSans";
+  src: url("../fonts/josefin/JosefinSans-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-      font-family: "Literata";
-      src: url("/fonts/Literata/Literata-LightItalic.woff2") format("woff2");
-      font-weight: light;
-      font-style: italic;
-      font-display: swap;
+  font-family: "JosefinSans";
+  src: url("../fonts/josefin/JosefinSans-ThinItalic.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-      font-family: "Literata";
-      src: url("/fonts/Literata/Literata-SemiBold.woff2") format("woff2");
-      font-weight: bold;
-      font-style: normal;
-      font-display: swap;
+  font-family: "JosefinSans";
+  src: url("../fonts/josefin/JosefinSans-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-      font-family: "Literata";
-      src: url("/fonts/Literata/Literata-SemiBoldItalic.woff2") format("woff2");
-      font-weight: bold;
-      font-style: italic;
-      font-display: swap;
+  font-family: "JosefinSans";
+  src: url("../fonts/josefin/JosefinSans-ExtraLightItalic.ttf") format("truetype");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "JosefinSans";
+  src: url("../fonts/josefin/JosefinSans-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "JosefinSans";
+  src: url("../fonts/josefin/JosefinSans-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "JosefinSans Regular";
+  src: url("../fonts/josefin/JosefinSans-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "JosefinSans";
+  src: url("../fonts/josefin/JosefinSans-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "JosefinSans";
+  src: url("../fonts/josefin/JosefinSans-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "JosefinSans";
+  src: url("../fonts/josefin/JosefinSans-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "JosefinSans";
+  src: url("../fonts/josefin/JosefinSans-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "JosefinSans";
+  src: url("../fonts/josefin/JosefinSans-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "JosefinSans";
+  src: url("../fonts/josefin/JosefinSans-SemiBoldItalic.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "JosefinSans";
+  src: url("../fonts/josefin/JosefinSans-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "JosefinSans";
+  src: url("../fonts/josefin/JosefinSans-BoldItalic.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Literata";
+  src: url("../fonts/Literata/Literata-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Literata";
+  src: url("../fonts/Literata/Literata-LightItalic.woff2") format("woff2");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Literata";
+  src: url("../fonts/Literata/Literata-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Literata";
+  src: url("../fonts/Literata/Literata-SemiBoldItalic.woff2") format("woff2");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Monaspace Argon";
+  src: url("../fonts/Monaspace/MonaspaceArgon-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Monaspace Argon";
+  src: url("../fonts/Monaspace/MonaspaceArgon-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
   font-family: "JetBrains Mono";
-  src: url("../fonts/JetBrainsMono/JetBrainsMono-Regular.woff2") format("woff2");
+  src: url("../fonts/JetBrainsMono/JetBrainsMonoNerdFontPropo-Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -40,8 +176,8 @@
 
 @font-face {
   font-family: "JetBrains Mono";
-  src: url("../fonts/JetBrainsMono/JetBrainsMono-SemiBold.woff2") format("woff2");
-  font-weight: 600;
+  src: url("../fonts/JetBrainsMono/JetBrainsMonoNerdFontPropo-Bold.ttf") format("truetype");
+  font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
